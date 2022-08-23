@@ -1,13 +1,17 @@
+function updateHeading(newHeading) {
+  let heading = document.querySelector('h1');
+  heading.innerHTML = newHeading;
+}
 function applyNow() {
-    let firstName = prompt('What is your first name?');
-    let age = prompt('How old are you?');
-    let h1 = document.querySelector('h1');
+  let firstName = prompt('What is your first name?');
+  let age = prompt('How old are you?');
 
-    if (age >= 18) {
-      h1.innerHTML = 'Hi, ' + firstName + '! Welcome to SheCodes !';
-    } else {
-      h1.innerHTML = 'Sorry, ' + firstName + '! You cannot join SheCodes';
-    }
+  if (age >= 18) {
+    updateHeading(`Hi,  ${firstName}! Welcome to SheCodes 🙎‍♀️ `);
+  } else {
+    updateHeading(`Sorry, ${firstName}! You cannot join SheCodes. `);
   }
-  let button = document.querySelector('button');
-  button.addEventListener('click', applyNow);
+}
+
+let button = document.querySelector('button');
+button.addEventListener('click', applyNow);

@@ -16,3 +16,14 @@ h1 {
     background-color: white;
     color: blueviolet;
   }
+  .align {
+    text-align: center;
+  }
+  li {
+    list-style-type: none;
+   
+  }
+  ul{
+    margin:2em;
+    padding: 0;
+  }
