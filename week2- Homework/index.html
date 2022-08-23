@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SheCodes wk2 Homework</title>
+  </head>
+  <style>
+    ul {
+      text-align: center;
+      padding: 10px 0;
+    }
+    li {
+      list-style-type: none;
+      margin: 0 auto;
+      padding: 10px 0;
+      border-radius: 10px;
+      transition: all 200ms ease-in-out;
+      max-width: 600px;
+    }
+
+    p {
+      font-size: 18px;
+      opacity: 0.7;
+      text-align: center;
+      font-family: monospace;
+    }
+
+    li:hover {
+      margin: 0 15px;
+      background-color: #fffbef;
+      margin: 0 auto;
+      /* width: 400px; */
+    }
+    h3 {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .cloud {
+      text-align: center;
+      color: #1a64d6;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 48px;
+      line-height: 48px;
+    }
+    .strong {
+      font-weight: bold;
+    }
+    .small {
+      font-weight: 500;
+    }
+    .alignment {
+      text-align: center;
+    }
+    .changecity-btn {
+      padding: 16px 46px;
+      border-radius: 30px;
+      color: #fff;
+      background-color: #1a64d6;
+      border: 1px solid #1a64d6;
+      display: block;
+      margin: 0 auto;
+      font-size: 16px;
+      line-height: 22px;
+      transition: all 200ms ease-in-out;
+      box-shadow: 2px 5px 5px rgb(0 0 0 / 20%);
+      cursor: pointer;
+    }
+    .changecity-btn:hover {
+      padding: 16px 46px;
+      border-radius: 30px;
+      background-color: #fff;
+      color: #1a64d6;
+      border: 1px solid #1a64d6;
+      display: block;
+      margin: 0 auto;
+      font-size: 16px;
+      line-height: 22px;
+    }
+    .copyright {
+      font-size: 18px;
+      opacity: 0.7;
+      text-align: center;
+      font-family: monospace;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <h1 class="cloud">
+        ⛅
+        <br />
+        Currently <span class="degree"> 21°</span> in
+        <span class="city">Tokyo</span>
+      </h1>
+      <h2 class="alignment">
+        <span class="small"> 13° </span> / <strong>23°</strong>
+      </h2>
+
+      <ul>
+        <li>
+          <h3>🌨 Tomorow</h3>
+          <p>10° / <strong>22°</strong></p>
+        </li>
+        <li>
+          <h3>⛅ Saturday</h3>
+          <p>15° / <strong>17°</strong></p>
+        </li>
+        <li>
+          <h3>☀️ Sunday</h3>
+          <p>25° / <strong>28°</strong></p>
+        </li>
+      </ul>
+      <button class="changecity-btn">Change City</button>
+      <p class="copyright">Coded by Balogun Damilola</p>
+    </div>
+    <script>
+      function askWeather() {
+        let city = prompt('What city do you live in?');
+
+        let temperature = prompt('What temperature is it?');
+        let h1 = document.querySelector('h1');
+        if (temperature < 0) {
+          h1.innerHTML = `☹️<br /> Currently ${temperature}° in ${city}`;
+        } else {
+          h1.innerHTML = `😄<br />Currently ${temperature}° in ${city}`;
+        }
+      }
+
+      let button = document.querySelector('button');
+      button.addEventListener('click', askWeather);
+    </script>
+  </body>
+</html>
