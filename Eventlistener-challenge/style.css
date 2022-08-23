@@ -1,0 +1,18 @@
+h1 {
+    text-align: center;
+    color: blueviolet;
+  }
+  button {
+    display: block;
+    margin: 0 auto;
+    padding: 2em;
+    background-color: blueviolet;
+    color: white;
+    transition: all 200ms ease-in-out;
+    border: 2px solid blueviolet;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: white;
+    color: blueviolet;
+  }
