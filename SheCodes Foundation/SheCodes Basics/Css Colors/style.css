@@ -1,0 +1,24 @@
+h1 {
+    /* background-color: #6e4ebd; */
+    color: #885df1;
+    text-align: center;
+    text-decoration: underline;
+  }
+  .heading-two {
+    color: #272044;
+    text-align: center;
+  }
+  body {
+    background-color: #f6f2fe;
+  }
+  .coders {
+    color: blue;
+  }
+
+  .courses {
+    color: red;
+  }
+
+  .stories {
+    color: green;
+  }

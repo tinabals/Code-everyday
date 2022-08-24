@@ -1,0 +1,20 @@
+.coders {
+    color: blue;
+  }
+
+  .courses {
+    color: red;
+  }
+
+  .stories {
+    color: green;
+  }
+  .heading-one {
+    color: purple;
+    text-decoration: underline;
+    text-align: center;
+  }
+  .heading-two {
+    text-align: center;
+    color: green;
+  }
