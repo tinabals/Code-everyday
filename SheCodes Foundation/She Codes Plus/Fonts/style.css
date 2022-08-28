@@ -1,0 +1,19 @@
+h1{
+    font-family: 'PT Mono', monospace;
+}
+h2{
+    font-family: 'Qwitcher Grypen', cursive;
+}
+.instagram-icon{
+    color:purple;
+    font-size: 100px;
+    transition: all 200ms ease-in-out;
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -ms-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+}
+.instagram-icon:hover{
+    color:blue;
+    font-size: 200px;
+}
