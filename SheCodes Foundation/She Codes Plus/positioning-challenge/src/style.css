@@ -1,0 +1,63 @@
+body {
+    font-family: sans-serif;
+    padding: 0 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-weight: 900;
+    margin: 0;
+    font-size: 34px;
+    line-height: 48px;
+  }
+  
+  h1,
+  h2,
+  h3 {
+    color: #231d3c;
+  }
+  
+  .logo {
+    /* display: block; */
+    /* margin: 30px auto; */
+    width: 150px;
+    position: absolute;
+    top: 0;
+    margin: 0;
+    left: 0;
+    padding: 0;
+  }
+  
+  .img-positioning {
+    display: block;
+    margin: 30px auto;
+    width: 75%;
+  }
+  
+  .cities {
+    background: #fff;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    /* margin: 0; */
+  }
+  
+  .emojis .first {
+    /* background-color: yellow; */
+    position: relative;
+    top: -20px;
+    left: 16px;
+    background-color: yellow;
+  }
+  
+ .emojis .second {
+    position: relative;
+    right: 10px;
+  }
+  .emojis .third {
+    position: relative;
+    top: 20px;
+    right: 36px;
+  }
+  
