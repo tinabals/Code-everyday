@@ -1,0 +1,38 @@
+/* h1{
+    text-align: center;
+    position: fixed;
+    width:100%;
+    background-color:white;
+    margin:0;
+    padding: 20px;
+    bottom:0;
+}
+
+img{
+    width:300;
+    display: block;
+    margin: 0 auto;
+}
+*/
+
+/* or when you have an element, that is not styling the way you want.... you can use this method below... but just be careful it could get addictive */
+
+/* h1{
+    position:relative;
+    top:20px;
+    left:50%;
+}
+
+img{
+    width:300;
+    position:relative;
+    left:180px;
+} */
+
+/* or you can use  absolute positioning : it wouldn't be fixed but it would remain there */
+h1{
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    top:100px;
+}
