@@ -15,42 +15,66 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/11763fb2f0.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Project Wire Frame</title>
   </head>
   <body>
     <h1>Weather App</h1>
 
-    <div class="card container" style="width: 18rem">
+    <div class="card container container-overall" style="width: 18rem">
       <input
-        class="form-control form-control-lg"
+        class="form-control form-control-sm search-input"
         type="text"
-        placeholder=".form-control-lg"
-        aria-label=".form-control-lg example"
-      />
-      <input
-        class="form-control"
-        type="text"
-        placeholder="Default input"
-        aria-label="default input example"
-      />
-      <input
-        class="form-control form-control-sm"
-        type="text"
-        placeholder=".form-control-sm"
+        placeholder="Search Country"
+        autofocus
         aria-label=".form-control-sm example"
       />
-      <div class="container weather-screen">
-        <h2 class="heading-two">Ibadan</h2>
-        <p class="Temp">24°C</p>
-        <p class="weather-state">Cloudy</p>
-        <p class="overall-temp">H:31°C L:31°C</p>
+      <i class="fa-brands fa-searchengin search-icon"></i>
+      <div class="line-one">
+        <div class="line-two">
+          <div class="line-three">
+            <span class="emoji-one">😍</span>
+            <div class="container weather-screen">
+              <h2 class="heading-two">Ibadan</h2>
+              <p class="Temp">24°C</p>
+              <p class="weather-state">Cloudy</p>
+              <p class="overall-temp">H:31°C L:31°C</p>
+            </div>
+            <span class="emoji-two">😍</span>
+          </div>
+        </div>
       </div>
-      <div class="card-body">
+      <div class="card-body second-card">
         <div class="container">
-          <p class="card-text">
+          <p class="card-text first-paragraph">
             Thunderstorms from 14:00 -17:00, with cloudy conditions expected at
             16:0
           </p>
+        </div>
+      </div>
+      <div class="card third-card">
+        <div class="row">
+          <div class="col-sm-4">Today</div>
+          <div style="text-align: center" class="col-sm-3">🌧</div>
+          <div class="col-sm-5">20° to 24°</div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">Tomorrow</div>
+          <div style="text-align: center" class="col-sm-3">🌤</div>
+          <div class="col-sm-5">10° to 34°</div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">Sunday</div>
+          <div style="text-align: center" class="col-sm-3">🌤</div>
+          <div class="col-sm-5">26° to 40°</div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">Monday</div>
+          <div style="text-align: center" class="col-sm-3">☀</div>
+          <div class="col-sm-5">10° to 24°</div>
         </div>
       </div>
     </div>
