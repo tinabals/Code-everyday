@@ -23,12 +23,20 @@ let weather = {
 
 // write your code here
 let city = prompt('Enter a city');
+city = city.toLowerCase();
+console.log(city, 'this is the city');
 
 if (weather[city] != undefined) {
   let temperature = weather[city].temp;
+  let tempInFarenheit = (temperature * 9) / 5 + 32;
   let humidity = weather[city].humidity;
+  console.log(tempInFarenheit, 'temperature');
 
-  alert(temperature + humidity);
+  alert(
+    `It is currently ${temperature}°C (${tempInFarenheit}°F) in Paris with a humidity of ${humidity}%`
+  );
 } else {
-  alert("Doesn't exist pease");
+  alert(
+    `Sorry, we don't know the weather for this city, try going to https://www.google.com/search?q=weather+sydney.`
+  );
 }
