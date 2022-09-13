@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@700&family=Roboto+Mono:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/11763fb2f0.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Project Wire Frame</title>
+  </head>
+  <body>
+    <h1>Weather App</h1>
+
+    <div class="card container container-overall" style="width: 18rem">
+      <form id="search-form">
+        <div class="row">
+          <span class="col-10">
+            <input
+              id="search-country"
+              class="form-control form-control-sm search-input"
+              type="text"
+              placeholder="Search Country"
+              autofocus
+              aria-label=".form-control-sm example"
+            />
+          </span>
+          <span class="col-sm-2">
+            <input type="submit" value="Search" />
+          </span>
+        </div>
+      </form>
+      <div>
+        <h3 id="todays_date"></h3>
+      </div>
+      <div class="line-one">
+        <div class="line-two">
+          <div class="line-three">
+            <span class="emoji-one">😍</span>
+            <div class="container weather-screen">
+              <h2 class="heading-two">Ibadan</h2>
+              <p class="Temp">24°C</p>
+              <p class="weather-state">Cloudy</p>
+              <p class="overall-temp">H:31°C L:31°C</p>
+            </div>
+            <span class="emoji-two">😍</span>
+          </div>
+        </div>
+      </div>
+      <div class="card-body second-card">
+        <div class="container">
+          <p class="card-text first-paragraph">
+            Thunderstorms from 14:00 -17:00, with cloudy conditions expected at
+            16:0
+          </p>
+        </div>
+      </div>
+      <div class="card third-card">
+        <div class="row">
+          <div class="col-sm-4">Today</div>
+          <div style="text-align: center" class="col-sm-3">🌧</div>
+          <div class="col-sm-5">20° to 24°</div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">Tomorrow</div>
+          <div style="text-align: center" class="col-sm-3">🌤</div>
+          <div class="col-sm-5">10° to 34°</div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">Sunday</div>
+          <div style="text-align: center" class="col-sm-3">🌤</div>
+          <div class="col-sm-5">26° to 40°</div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">Monday</div>
+          <div style="text-align: center" class="col-sm-3">☀</div>
+          <div class="col-sm-5">10° to 24°</div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
