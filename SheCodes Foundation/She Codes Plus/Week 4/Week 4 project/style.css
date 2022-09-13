@@ -15,6 +15,37 @@ h1{
     margin: 15px 0 auto;
     font-size: 20px;
 }
+.search-container{
+    display: flex;
+    justify-content: center;
+}
+.search-btn{
+    padding:4px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    color: white;
+    background-color: #ba2ecc;
+    position: relative;
+    right: 5px;
+    padding: 5px;
+    border: 2px solid #ba2ecc;
+    transition:all 200ms ease-in-out;
+    -webkit-transition:all 200ms ease-in-out;
+    -moz-transition:all 200ms ease-in-out;
+    -ms-transition:all 200ms ease-in-out;
+    -o-transition:all 200ms ease-in-out;
+}
+
+.search-btn:hover{
+    color:#ba2ecc;
+    background-color: white;
+    border: 1px solid #ba2ecc;
+}
+
+
 .line-one,.line-two, .line-three{
     border-radius:5px;
     padding:5px;

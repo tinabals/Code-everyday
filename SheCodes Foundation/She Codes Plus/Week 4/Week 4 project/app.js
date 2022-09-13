@@ -68,8 +68,29 @@ search_form.addEventListener('submit', searchCity);
 function searchCity(event) {
   event.preventDefault();
   let search_input = document.querySelector('.search-input');
-  console.log(search_input);
+  let value = search_input.value;
+  if (value) {
+    let search_display = document.querySelector('.search-display');
+    search_display.innerHTML = `Searching for ${search_input.value}`;
+    search_input.value = ' ';
+  }
   let location = document.querySelector('.heading-two');
-  location.innerHTML = search_input.value.toUpperCase();
-  search_input.value = ' ';
+  location.innerHTML = value.toUpperCase();
+}
+
+let fahrenheit = document.querySelector('.fahrenheit');
+fahrenheit.addEventListener('click', convertToCelsius);
+let currentTemp = document.querySelector('#currentTemp');
+function convertToCelsius(event) {
+  event.preventDefault();
+  let celsiusconversion = ((currentTemp.innerHTML - 32) * 5) / 9;
+  currentTemp.innerHTML = Math.floor(celsiusconversion);
+}
+let celsius = document.querySelector('.celsius');
+// currentTemp = document.querySelector('#currentTemp');
+celsius.addEventListener('click', convertToFahrenheit);
+function convertToFahrenheit(event) {
+  event.preventDefault();
+  let fahrenheitConversion = (currentTemp.innerHTML * 9) / 5 + 32;
+  currentTemp.innerHTML = Math.floor(fahrenheitConversion);
 }

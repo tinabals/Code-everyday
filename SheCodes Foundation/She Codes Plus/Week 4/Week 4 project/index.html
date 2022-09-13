@@ -26,22 +26,20 @@
 
     <div class="card container container-overall" style="width: 18rem">
       <form id="search-form">
-        <div class="row">
-          <span class="col-10">
-            <input
-              id="search-country"
-              class="form-control form-control-sm search-input"
-              type="text"
-              placeholder="Search Country"
-              autofocus
-              aria-label=".form-control-sm example"
-            />
-          </span>
-          <span class="col-sm-2">
-            <input type="submit" value="Search" />
-          </span>
+        <div class="container search-container">
+          <input
+            id="search-country"
+            class="form-control form-control-sm search-input"
+            type="text"
+            placeholder="Search Country"
+            autofocus
+            aria-label=".form-control-sm example"
+          />
+
+          <input type="submit" value="Search" class="search-btn" />
         </div>
       </form>
+      <span class="search-display"></span>
       <div>
         <h3 id="todays_date"></h3>
       </div>
@@ -51,7 +49,15 @@
             <span class="emoji-one">😍</span>
             <div class="container weather-screen">
               <h2 class="heading-two">Ibadan</h2>
-              <p class="Temp">24°C</p>
+              <p class="Temp">
+                <span id="currentTemp">24</span
+                ><small
+                  ><sup>
+                    <a class="celsius" href="#">°C </a> |
+                    <a href="" class="fahrenheit"> °F</a>
+                  </sup></small
+                >
+              </p>
               <p class="weather-state">Cloudy</p>
               <p class="overall-temp">H:31°C L:31°C</p>
             </div>
