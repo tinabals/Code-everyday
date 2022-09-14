@@ -74,6 +74,7 @@ function searchCity(event) {
     search_display.innerHTML = `Searching for ${search_input.value}`;
     search_input.value = ' ';
   }
+  search_display.innerHTML = ' ';
   let location = document.querySelector('.heading-two');
   location.innerHTML = value.toUpperCase();
 }
