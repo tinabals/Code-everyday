@@ -1,0 +1,150 @@
+
+body{
+    font-family: 'PT Mono', monospace;
+    background: linear-gradient(114.9deg, rgb(34, 34, 34) 8.3%, rgb(0, 40, 60) 41.6%, rgb(0, 143, 213) 93.4%);
+    background-repeat: no-repeat;
+    color:white;
+    
+   
+}
+h1{
+    text-align: center;
+}
+#todays_date{
+    text-align:center;
+    margin: 15px 0 auto;
+    font-size: 20px;
+}
+.search-container{
+    display: flex;
+    justify-content: center;
+}
+.search-btn{
+    padding:4px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    color: white;
+    background-color: #ba2ecc;
+    position: relative;
+    right: 5px;
+    padding: 5px;
+    border: 2px solid #ba2ecc;
+    transition:all 200ms ease-in-out;
+    -webkit-transition:all 200ms ease-in-out;
+    -moz-transition:all 200ms ease-in-out;
+    -ms-transition:all 200ms ease-in-out;
+    -o-transition:all 200ms ease-in-out;
+}
+
+.search-btn:hover{
+    color:#ba2ecc;
+    background-color: white;
+    border: 1px solid #ba2ecc;
+}
+
+
+.line-one,.line-two, .line-three{
+    border-radius:5px;
+    padding:5px;
+    border-width: 4px;
+    border-style: dotted;
+    margin:0;
+    padding:0;
+}
+.line-one{
+    margin-top: 20px;
+    border-top-color: purple;
+    border-right-color: #3711e0;
+    border-bottom-color: #ba2ecc;
+    border-left-color: #3498db;
+}
+.line-two{
+    border-left-color: #3498db;
+    border-bottom-color: #3711e0;
+    border-top-color: #3498db;
+    border-right-color: #ba2ecc;
+    
+}
+.line-three{
+    border-left-color: purple;
+    border-top-color: #3711e0;
+    border-right-color: #ba2ecc;
+    border-bottom-color: #3498db;
+}
+
+.emoji-one, .emoji-two{
+    position: relative;
+
+}
+.emoji-one{
+    top:14px;
+    left:-5px;
+}
+.emoji-two{
+    top:-14px;
+    left:228px;
+   
+}
+.card{
+    background: linear-gradient(179.2deg, rgb(34, 34, 34) 0%, rgb(8, 0, 153) 29.7%, rgb(118, 6, 166) 63.4%, rgba(233, 0, 64, 0.58) 100.1%);
+ 
+}
+.search-icon{
+    padding:10px;
+}
+.search-icon{
+    color:#212529;
+    position: absolute;
+    top:10px;
+    margin-left:230px;   
+}
+.container-overall{
+    width: 50%;
+}
+.container{
+    border: 2px solid #42A5F5;
+    padding:10px;
+}
+
+.weather-screen{
+    background: linear-gradient(109.6deg, rgb(0, 37, 84) 11.2%, rgba(0, 37, 84, 0.32) 100.2%);
+    color:black; 
+    min-width : 30%;
+    padding: 0;
+    
+    
+}
+.heading-two{
+    text-align: center;
+   color:aqua;
+    font-weight: 500;
+   
+}
+.Temp{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+  color:#3711e0;
+    font-weight: 600;
+}
+.weather-state{
+    text-align: center;
+  color:#fff;
+    font-weight: 900vw;
+   
+}
+
+.overall-temp{
+    text-align: center;
+ color:#3498db;
+    font-weight: 900;
+}
+.second-card{
+    background: linear-gradient(109.6deg, rgb(0, 37, 84) 11.2%, rgba(0, 37, 84, 0.32) 100.2%);
+}
+.first-paragraph{
+    text-align: center;
+    color:#fff;
+}
