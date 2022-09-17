@@ -45,6 +45,9 @@ h1{
     border: 1px solid #ba2ecc;
 }
 
+.description{
+    text-transform: capitalize;
+}
 
 .line-one,.line-two, .line-three{
     border-radius:5px;
