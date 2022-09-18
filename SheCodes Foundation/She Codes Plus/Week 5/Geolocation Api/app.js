@@ -5,8 +5,8 @@ function showPosition(position) {
 
 navigator.geolocation.getCurrentPosition(showPosition);
 let button = document.querySelector('button');
-button.addEventListener('click', showCurrentPositiom);
+// button.addEventListener('click', showCurrentPositiom);
 
-function showCurrentPositiom() {
-  let h1 = doc;
-}
+// function showCurrentPositiom() {
+//   let h1 = doc;
+// }
