@@ -151,3 +151,25 @@ h1{
     text-align: center;
     color:#fff;
 }
+
+.geolocation{
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    color: white;
+    background-color: #3498db;
+    border: 1px solid #3498db;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    transition: all 200ms ease-in-out;
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -ms-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+}
+.geolocation:hover{
+    opacity: 0.9;
+}
